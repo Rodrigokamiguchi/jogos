@@ -1,0 +1,127 @@
+#{
+	margin: 0;
+	padding: 0;
+
+} 
+body{
+	/*background: rgb(2,0,36);
+	background: linear-gradient(90deg,rgba(2,0,36,1) 0%, rgba(9,9,121,1)35%, rgba(0,212,255,1) 100%);*/
+}
+
+#site{
+	font-family: arial, sans-serif;
+	font-size: 10px;
+}
+
+nav ul#menu{
+	/*background-color: #5743D9;*/
+  	background-color: #rgb(0,0,0,0.7);
+	margin: 0;
+	padding: 0;
+ 	position: fixed;
+  	width: 100%;
+	text-align: center;
+	opacity: 0;
+  	transition: opacity.5s;
+
+}
+nav:hover ul#menu{
+	opacity: 1;
+}
+
+nav li {
+	display: inline;
+	line-height: 60px;
+}
+a:link, a:active{
+	font-size: 1.9em;
+	text-transform: uppercase;
+	text-decoration: none; 
+	color: #F2F2F2;
+	padding: 22px;
+	text-shadow: 1px 1px #000;
+} 
+a:hover, a:visited{
+	background-color: #060526;
+	color: #000;
+	text-shadow: 1px 1px #fff;
+}
+#banner{
+	background-image: url("../imagens/5.jpg");
+	width: 100%;
+	height: 100vh;
+	background-size: cover;
+}
+h1.destaque1{
+	text-align: center;
+	font-size: 6.0em;
+}
+h2.destaque2{
+	text-align:center;
+	font-size:5.0em;
+}
+h1{
+  font-size: 2.0em;
+  padding:50px 0;
+  text-align: left;
+}
+#about{
+  background-color: #3587F2;
+  height: 100vh;
+  padding: 50px;
+  font-size: 2.0em;
+  text-align: justify;
+}
+
+#gallery{
+  background-color: #9BF2EA;
+  height: 100vh;
+  padding: 50px;
+  font-size: 2.0em;
+  text-align: justify;
+}
+.galeria{
+  width: 350px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 25px #000;
+}
+
+/*#gallery {
+  background-color: #9BF2EA;
+  height: 100vh;
+  font-size: 2.0em;
+}
+
+.galeria {
+  width: 350px;  
+  border-radius: 4px;
+  box-shadow: 5px 5px 25px #000;
+  margin: 30px;
+}*/
+ #contact{
+    margin: 10cm;
+    padding: 0;
+    font-family:Georgia, Times, serif;
+    font-size: 20px;
+    color:#fff;
+}
+#contact input{
+    padding: 6px;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #9F63F2;
+    background-color: #ddd;
+    margin-bottom: 12px;
+    margin-top: 8px;
+}
+#contact button{
+    background-color:  #5743D9;
+    border: 4px solid #301D59;
+    color: #F2F2F2;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: inline-block;
+    font-size: 16px;
+}  
